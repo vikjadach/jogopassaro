@@ -13,6 +13,7 @@
 		int xrl8 = 7;
 		int TempoPulando = 20;
 		bool EstaPulando = false;
+		int score=0;
 
 		public MainPage()
 		{
@@ -70,6 +71,8 @@
 				var minAltura=-CanoBaixo.HeightRequest;
 				CanoCima.TranslationY=Random.Shared.Next((int)minAltura, (int)maxAltura);
 				CanoBaixo.TranslationY=CanoCima.TranslationY+AberturaDoCano+CanoBaixo.HeightRequest;
+				score ++;
+				LabelScore.Text="Canos: "+score.ToString("D3");
 			}
 		}
 
