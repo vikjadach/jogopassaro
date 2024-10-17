@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jogopassaro.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="Black">
+
+       <Grid Padding="0">
+
+              
+
+              <Image
+                     x:Name="FundoImg"
+                     Source="fundo.jpg"
+                     Opacity=".5"
+                     Aspect="Fill"
+                     VerticalOptions="FillAndExpand"
+                     HorizontalOptions="FillAndExpand"/>
+
+              <Image
+                     x:Name="tucano"
+                     Source="tucano.png"
+                     Margin="30,0,0,0"
+                     WidthRequest="80"
+                     HeightRequest="80"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Start"/>
+
+              <Image
+                     x:Name="CanoCima"
+                     Source="CanoCima.png"
+                     Aspect="AspectFit"
+                     WidthRequest="60"
+                     HeightRequest="620"
+                     VerticalOptions="Start"
+                     HorizontalOptions="End"/>
+
+              <Image
+                     x:Name="CanoBaixo"
+                     Source="CanoBaixo.png"
+                     Aspect="AspectFit"
+                     WidthRequest="60"
+                     HeightRequest="620"
+                     VerticalOptions="End"
+                     HorizontalOptions="End"
+                     />
+
+
+              <Frame
+                     x:Name="FrameGameOver"
+                     Background="#99000000"
+                     VerticalOptions="FillAndExpand"
+                     HorizontalOptions="FillAndExpand">
+                     <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnGameOverClicked"/>
+                     </Frame.GestureRecognizers>
+
+                   
+
+
+
+
+
+              </Frame>
+
+              <Grid.GestureRecognizers>
+                     <TapGestureRecognizer Tapped="Jumptucanozinho"/>
+              </Grid.GestureRecognizers>
+
+       </Grid>
+
+
+
+</ContentPage>
