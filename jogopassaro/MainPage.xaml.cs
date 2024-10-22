@@ -143,14 +143,26 @@
 		{
 			if (!faliceu)
 			{
-				if (VerificaColisaoCima() || VerificaColisaoBaxo())
-				{
+				if (VerificaColisaoCima() ||
+				    VerificaColisaoBaxo() ||
+					VerificaColisaoCanoCima())
+				
 					return true;
 				}
 			}
 			return false;
 		}
 
-
 	}
+	bool VerificaColisaoCanoCima()
+	{
+		var posHtucano = (LarguraJanela/2)-(tucano.widthRequest/2);
+		var posVtucano = (AlturaJanela/2)-(tucano.HeightRequest/2)+tucano.translationY;
+		if (posHtucano >= Math.Abs(canoCima.TranslationX)-canoCima.WidthRequest &&
+		    postHtucano <=Math.Abs(canoCima.TraslationX)+canoCima.widthRequest &&
+			posVtucano <= CanoCima.HeightRequest +canoCima.TranslationY)
+	}
+
+
+	
 }
