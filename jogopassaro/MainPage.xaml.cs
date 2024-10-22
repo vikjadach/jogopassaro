@@ -72,7 +72,7 @@
 				CanoCima.TranslationY=Random.Shared.Next((int)minAltura, (int)maxAltura);
 				CanoBaixo.TranslationY=CanoCima.TranslationY+AberturaDoCano+CanoBaixo.HeightRequest;
 				score ++;
-				LabelScore.Text="Canos: "+score.ToString("D3");
+				LabelLP.Text="Canos: "+score.ToString("D3");
 			}
 		}
 
@@ -102,10 +102,7 @@
 		async void CriaGravidade()
 		{
 			tucano.TranslationY += gravidade;
-			//tucano.TranslationY -= gravidade;
-
-
-
+			tucano.TranslationY -= gravidade;
 		}
 
 
@@ -119,7 +116,7 @@
 				return false;
 		}
 
-		bool VerificaColisaoBaxo()
+		bool VerificaColisaoBaixo()
 		{
 			var maxAltura = AlturaJanela / 2;
 			if (tucano.TranslationY >= maxAltura)
@@ -148,21 +145,33 @@
 					VerificaColisaoCanoCima())
 				
 					return true;
-				}
 			}
-			return false;
+			{
+				return false;
+			}
+		
 		}
 
-	}
-	bool VerificaColisaoCanoCima()
-	{
-		var posHtucano = (LarguraJanela/2)-(tucano.widthRequest/2);
-		var posVtucano = (AlturaJanela/2)-(tucano.HeightRequest/2)+tucano.translationY;
-		if (posHtucano >= Math.Abs(canoCima.TranslationX)-canoCima.WidthRequest &&
-		    postHtucano <=Math.Abs(canoCima.TraslationX)+canoCima.widthRequest &&
-			posVtucano <= CanoCima.HeightRequest +canoCima.TranslationY)
-	}
-
+		
+		
 
 	
+		bool VerificaColisaoCanoCima()
+		{
+			var posHtucano = (LarguraJanela/2)-(tucano.widthRequest/2);
+			var posVtucano = (AlturaJanela/2)-(tucano.HeightRequest/2)+tucano.translationY;
+			if (posHtucano >= Math.Abs(CanoCima.TranslationX)-CanoCima.WidthRequest &&
+				posHtucano <=Math.Abs(CanoCima.TraslationX)+CanoCima.widthRequest &&
+				posVtucano <=CanoCima.HeightRequest+CanoCima.TranslationY)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+
+	}
 }
