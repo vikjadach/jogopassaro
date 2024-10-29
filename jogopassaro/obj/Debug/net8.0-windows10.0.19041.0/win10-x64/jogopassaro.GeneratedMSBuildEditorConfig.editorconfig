@@ -8,35 +8,35 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = jogopassaro
-build_property.ProjectDir = c:\Users\Aluno\jogopassaro-1\jogopassaro\
+build_property.ProjectDir = c:\Users\Aluno\jogopassaro-3\jogopassaro\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[c:/Users/Aluno/jogopassaro-1/jogopassaro/App.xaml]
+[c:/Users/Aluno/jogopassaro-3/jogopassaro/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = jogopassaro.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[c:/Users/Aluno/jogopassaro-1/jogopassaro/AppShell.xaml]
+[c:/Users/Aluno/jogopassaro-3/jogopassaro/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = jogopassaro.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[c:/Users/Aluno/jogopassaro-1/jogopassaro/MainPage.xaml]
+[c:/Users/Aluno/jogopassaro-3/jogopassaro/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = jogopassaro.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[c:/Users/Aluno/jogopassaro-1/jogopassaro/Resources/Styles/Colors.xaml]
+[c:/Users/Aluno/jogopassaro-3/jogopassaro/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = jogopassaro.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[c:/Users/Aluno/jogopassaro-1/jogopassaro/Resources/Styles/Styles.xaml]
+[c:/Users/Aluno/jogopassaro-3/jogopassaro/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = jogopassaro.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

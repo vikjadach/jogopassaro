@@ -32923,11 +32923,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Aluno\\jogopassaro-1\\jogopassaro\\jogopassaro.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\jogopassaro-3\\jogopassaro\\jogopassaro.csproj",
       "projectName": "jogopassaro",
-      "projectPath": "c:\\Users\\Aluno\\jogopassaro-1\\jogopassaro\\jogopassaro.csproj",
+      "projectPath": "C:\\Users\\Aluno\\jogopassaro-3\\jogopassaro\\jogopassaro.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Aluno\\jogopassaro-1\\jogopassaro\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\jogopassaro-3\\jogopassaro\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
